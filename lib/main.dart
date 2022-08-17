@@ -42,7 +42,7 @@ class _DemoFacebookState extends State<DemoFacebook> {
   DemoFacebookSubmit() async {
     var response =
         await http.post(
-        Uri.parse("https://graph.facebook.com/v14.0/108311288660067/feed?message=${SendtoFacebook}&access_token=EAAvo9yBhyW8BAFB8oY8TlyMCLXDfuSma2e3Hrx4aLyfyMTO7CM4h4fV7i9kilWlnZBLcvcJ3LOqmiEZBfGOoAaL9mZCe8uZAxakbaa1idXbgZCu5gwqoKmlZBPsJOJZC3fAmFOKI4ZCKgDyJCHnFsIPbLAYxs8pHyupxiMooIDL7QCrJkuyFIffZANLFbz8j2AekZD"));
+        Uri.parse("https://graph.facebook.com/v14.0/108311288660067/feed?message=${SendtoFacebook}&access_token=GIVE ME THE ACCESS TOKEN"));
 
     if (response.statusCode == 200) {
       print("Done");
